@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imageCache>
+	<images id = "1">
+		<name> tv1 </name>
+		<hot>1</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv1.png</link>
+		<path>/sdcard/tvCache/tv1.png</path>
+	</images>
+	<images id = "2">
+		<name> tv2 </name>
+		<hot>1</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv2.png</link>
+		<path>/sdcard/tvCache/tv2.png</path>
+	</images>
+	<images id = "3">
+		<name> tv3 </name>
+		<hot>1</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv3.png</link>
+		<path>/sdcard/tvCache/tv3.png</path>
+	</images>
+	<images id = "4">
+		<name> tv4 </name>
+		<hot>1</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv4.png</link>
+		<path>/sdcard/tvCache/tv4.png</path>
+	</images>
+	<images id = "5">
+		<name> tv5 </name>
+		<hot>1</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv5.png</link>
+		<path>/sdcard/tvCache/tv5.png</path>
+	</images>
+	<images id = "6">
+		<name> tv6 </name>
+		<hot>1</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv6.png</link>
+		<path>/sdcard/tvCache/tv6.png</path>
+	</images>
+	<images id = "7">
+		<name> tv7 </name>
+		<hot>1</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv7.png</link>
+		<path>/sdcard/tvCache/tv7.png</path>
+	</images>
+	<images id = "8">
+		<name> tv8 </name>
+		<hot>1</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv8.png</link>
+		<path>/sdcard/tvCache/tv8.png</path>
+	</images>
+	<images id = "9">
+		<name> tv9 </name>
+		<hot>1</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv9.png</link>
+		<path>/sdcard/tvCache/tv9.png</path>
+	</images>
+	<images id = "10">
+		<name> tv10 </name>
+		<hot>1</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv10.png</link>
+		<path>/sdcard/tvCache/tv10.png</path>
+	</images>
+	<images id = "11">
+		<name> tv11 </name>
+		<hot>1</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv11.png</link>
+		<path>/sdcard/tvCache/tv11.png</path>
+	</images>
+	<images id = "12">
+		<name> tv12 </name>
+		<hot>1</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv12.png</link>
+		<path>/sdcard/tvCache/tv12.png</path>
+	</images>
+	<images id = "13">
+		<name> tv13 </name>
+		<hot>4</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv13.png</link>
+		<path>/sdcard/tvCache/tv13.png</path>
+	</images>
+	<images id = "14">
+		<name> tv14 </name>
+		<hot>4</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv14.png</link>
+		<path>/sdcard/tvCache/tv14.png</path>
+	</images>
+	<images id = "15">
+		<name> tv15 </name>
+		<hot>4</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv15.png</link>
+		<path>/sdcard/tvCache/tv15.png</path>
+	</images>
+	<images id = "16">
+		<name> tv16 </name>
+		<hot>4</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv16.png</link>
+		<path>/sdcard/tvCache/tv16.png</path>
+	</images>
+	<images id = "17">
+		<name> tv17 </name>
+		<hot>4</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv17.png</link>
+		<path>/sdcard/tvCache/tv17.png</path>
+	</images>
+	<images id = "18">
+		<name> tv18 </name>
+		<hot>4</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv18.png</link>
+		<path>/sdcard/tvCache/tv18.png</path>
+	</images>
+	<images id = "19">
+		<name> tv19 </name>
+		<hot>4</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv19.png</link>
+		<path>/sdcard/tvCache/tv19.png</path>
+	</images>
+	<images id = "20">
+		<name> tv20 </name>
+		<hot>4</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv20.png</link>
+		<path>/sdcard/tvCache/tv20.png</path>
+	</images>
+	<images id = "21">
+		<name> tv21 </name>
+		<hot>4</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv21.png</link>
+		<path>/sdcard/tvCache/tv21.png</path>
+	</images>
+	<images id = "22">
+		<name> tv22 </name>
+		<hot>4</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv22.png</link>
+		<path>/sdcard/tvCache/tv22.png</path>
+	</images>
+	<images id = "23">
+		<name> tv23 </name>
+		<hot>4</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv23.png</link>
+		<path>/sdcard/tvCache/tv23.png</path>
+	</images>
+	<images id = "24">
+		<name> tv24 </name>
+		<hot>4</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv24.png</link>
+		<path>/sdcard/tvCache/tv24.png</path>
+	</images>
+	<images id = "25">
+		<name> tv25 </name>
+		<hot>4</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv25.png</link>
+		<path>/sdcard/tvCache/tv25.png</path>
+	</images>
+	<images id = "26">
+		<name> tv26 </name>
+		<hot>4</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv26.png</link>
+		<path>/sdcard/tvCache/tv26.png</path>
+	</images>
+	<images id = "27">
+		<name> tv27 </name>
+		<hot>4</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv27.png</link>
+		<path>/sdcard/tvCache/tv27.png</path>
+	</images>
+	<images id = "28">
+		<name> tv28 </name>
+		<hot>4</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv28.png</link>
+		<path>/sdcard/tvCache/tv28.png</path>
+	</images>
+	<images id = "29">
+		<name> tv29 </name>
+		<hot>4</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv29.png</link>
+		<path>/sdcard/tvCache/tv29.png</path>
+	</images>
+	<images id = "30">
+		<name> tv30 </name>
+		<hot>4</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv30.png</link>
+		<path>/sdcard/tvCache/tv30.png</path>
+	</images>
+	<images id = "31">
+		<name> tv31 </name>
+		<hot>4</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv31.png</link>
+		<path>/sdcard/tvCache/tv31.png</path>
+	</images>
+	<images id = "32">
+		<name> tv32 </name>
+		<hot>4</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv32.png</link>
+		<path>/sdcard/tvCache/tv32.png</path>
+	</images>
+	<images id = "33">
+		<name> tv33 </name>
+		<hot>4</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv33.png</link>
+		<path>/sdcard/tvCache/tv33.png</path>
+	</images>
+	<images id = "34">
+		<name> tv34 </name>
+		<hot>4</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv34.png</link>
+		<path>/sdcard/tvCache/tv34.png</path>
+	</images>
+	<images id = "35">
+		<name> tv35 </name>
+		<hot>4</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv35.png</link>
+		<path>/sdcard/tvCache/tv35.png</path>
+	</images>
+	<images id = "36">
+		<name> tv36 </name>
+		<hot>4</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv36.png</link>
+		<path>/sdcard/tvCache/tv36.png</path>
+	</images>
+	<images id = "37">
+		<name> tv37 </name>
+		<hot>4</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv37.png</link>
+		<path>/sdcard/tvCache/tv37.png</path>
+	</images>
+	<images id = "38">
+		<name> tv38 </name>
+		<hot>5</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv38.png</link>
+		<path>/sdcard/tvCache/tv38.png</path>
+	</images>
+	<images id = "39">
+		<name> tv39 </name>
+		<hot>5</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv39.png</link>
+		<path>/sdcard/tvCache/tv39.png</path>
+	</images>
+	<images id = "40">
+		<name> tv40 </name>
+		<hot>5</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv40.png</link>
+		<path>/sdcard/tvCache/tv40.png</path>
+	</images>
+		<images id = "41">
+		<name> tv41 </name>
+		<hot>5</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv41.png</link>
+		<path>/sdcard/tvCache/tv41.png</path>
+	</images>
+		<images id = "42">
+		<name> tv42 </name>
+		<hot>5</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv42.png</link>
+		<path>/sdcard/tvCache/tv42.png</path>
+	</images>
+		<images id = "43">
+		<name> tv43 </name>
+		<hot>3</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv43.png</link>
+		<path>/sdcard/tvCache/tv43.png</path>
+	</images>
+		<images id = "44">
+		<name> tv44 </name>
+		<hot>3</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv44.png</link>
+		<path>/sdcard/tvCache/tv44.png</path>
+	</images>
+		<images id = "45">
+		<name> tv45 </name>
+		<hot>2</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv45.png</link>
+		<path>/sdcard/tvCache/tv45.png</path>
+	</images>
+		<images id = "46">
+		<name> tv46 </name>
+		<hot>2</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv46.png</link>
+		<path>/sdcard/tvCache/tv46.png</path>
+	</images>
+		<images id = "47">
+		<name> tv47 </name>
+		<hot>2</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv47.png</link>
+		<path>/sdcard/tvCache/tv47.png</path>
+	</images>
+		<images id = "48">
+		<name> tv48 </name>
+		<hot>6</hot>
+		<category>SPORT</category>
+		<link>ftp://myserver//tv48.png</link>
+		<path>/sdcard/tvCache/tv48.png</path>
+	</images>
+		<images id = "49">
+		<name> tv49 </name>
+		<hot>11</hot>
+		<category>IMGLIST</category>
+		<link>http://d3o76j76sx0r0h.cloudfront.net/home/img_home1.png</link>
+		<path>/sdcard/tvCache/img_home1.png</path>
+	</images>
+	<images id = "50">
+		<name> tv50 </name>
+		<hot>11</hot>
+		<category>IMGLIST</category>
+		<link>http://d3o76j76sx0r0h.cloudfront.net/home/img_home2.png</link>
+		<path>/sdcard/tvCache/img_home2.png</path>
+	</images>
+	<images id = "51">
+		<name> tv51 </name>
+		<hot>11</hot>
+		<category>IMGLIST</category>
+		<link>http://d3o76j76sx0r0h.cloudfront.net/home/img_home3.png</link>
+		<path>/sdcard/tvCache/img_home3.png</path>
+	</images>
+	<images id = "52">
+		<name> tv52 </name>
+		<hot>11</hot>
+		<category>IMGLIST</category>
+		<link>http://d3o76j76sx0r0h.cloudfront.net/home/img_home4.png</link>
+		<path>/sdcard/tvCache/img_home4.png</path>
+	</images>
+	<images id = "53">
+		<name> tv53 </name>
+		<hot>11</hot>
+		<category>IMGLIST</category>
+		<link>http://d3o76j76sx0r0h.cloudfront.net/home/img_home5.png</link>
+		<path>/sdcard/tvCache/img_home5.png</path>
+	</images>
+	<images id = "54">
+		<name> tv54 </name>
+		<hot>11</hot>
+		<category>IMGLIST</category>
+		<link>http://d3o76j76sx0r0h.cloudfront.net/home/img_home6.png</link>
+		<path>/sdcard/tvCache/img_home6.png</path>
+	</images>
+	<images id = "55">
+		<name> tv55 </name>
+		<hot>11</hot>
+		<category>IMGLISTT</category>
+		<link>ftp://myserver//tv48.png</link>
+		<path>/sdcard/tvCache/img_home7.png</path>
+	</images>
+	<images id = "56">
+		<name> tv56 </name>
+		<hot>11</hot>
+		<category>IMGLISTT</category>
+		<link>ftp://myserver//tv48.png</link>
+		<path>/sdcard/tvCache/img_home7.png</path>
+	</images>
+	
+</imageCache>

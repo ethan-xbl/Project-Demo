@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical">
+  <RelativeLayout android:id="@+id/relativeLayout2" android:layout_height="fill_parent" android:layout_width="fill_parent">
+               <ImageView 
+               		android:id="@+id/imageView2" 
+               		android:src="@drawable/tmp_img" 
+               		android:layout_width="128dip" 
+               		android:layout_height="128dip"
+               		android:layout_marginTop="50dip"
+               		android:layout_centerInParent="true"/>
+               <TextView  
+               		android:id="@+id/musicText"  
+               		android:text="Playing Music" 
+               		android:layout_width="128dip" 
+               		android:layout_height="30dip" 
+               		android:layout_below="@+id/imageView2"	
+               		android:layout_centerHorizontal="true"/> 
+               <ImageButton	
+               		android:id="@+id/mPlayBtn"  
+               		android:layout_width="80dip" 
+               		android:layout_height="80dip" 
+               		android:layout_below="@+id/musicText"
+               		android:layout_marginLeft="140dip"
+               		android:src="@drawable/start" />
+               <ImageButton 
+               		android:id="@+id/mStopBtn"  
+               		android:layout_width="80dip" 
+               		android:layout_height="80dip" 
+               		android:layout_below="@+id/musicText" 
+               		android:layout_toRightOf="@+id/mPlayBtn" 
+               		android:src="@drawable/stop" />              
+           </RelativeLayout>
+</LinearLayout>

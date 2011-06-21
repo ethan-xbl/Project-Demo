@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <Button
+    	android:id="@+id/button_create_program"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="@dimen/button_margin_top"
+    	android:text="@string/title_create_program"
+    	/>
+    <Button
+    	android:id="@+id/button_launch_program"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="@dimen/button_margin_top"
+    	android:text="@string/title_launch_program"
+    	/>
+    <Button
+    	android:id="@+id/button_lamp_setup"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="@dimen/button_margin_top"
+    	android:text="@string/title_lamp_setup"
+    	/>
+    <Button
+    	android:id="@+id/button_app_setup"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="@dimen/button_margin_top"
+    	android:text="@string/title_app_setup"
+    	/>
+    <Button
+    	android:id="@+id/button_popup_window"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="@dimen/button_margin_top"
+    	android:text="@string/title_popup_windows"/>
+    	
+</LinearLayout>

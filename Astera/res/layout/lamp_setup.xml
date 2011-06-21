@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+   	
+ 	<LinearLayout
+ 		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+ 		android:orientation="vertical"
+ 		android:layout_weight="1">
+ 		
+ 		<!-- DMX address -->
+ 		<LinearLayout
+ 			android:layout_width="fill_parent"
+ 			android:layout_height="match_parent"
+ 			android:orientation="horizontal"
+ 			android:layout_marginTop="1dip"
+ 			android:layout_weight="1">
+ 			<TextView
+ 				android:layout_width="match_parent"
+ 				android:layout_height="match_parent"
+ 				android:layout_weight="2"
+ 				android:text="@string/dmx_address"
+ 				/>
+ 			<Spinner
+ 				android:id="@+id/spinner_dmx_address"
+ 				android:layout_width="match_parent"
+ 				android:layout_height="match_parent"
+ 				android:layout_weight="3"
+ 				android:entries="@array/dmx_address"/>
+ 		</LinearLayout>
+ 		
+ 		<!-- DMX pixels -->
+ 		<LinearLayout
+ 			android:layout_width="fill_parent"
+ 			android:layout_height="match_parent"
+ 			android:orientation="horizontal"
+ 			android:layout_marginTop="1dip"
+ 			android:layout_weight="1">
+ 			<TextView
+ 				android:layout_width="match_parent"
+ 				android:layout_height="match_parent"
+ 				android:layout_weight="2"
+ 				android:text="@string/dmx_pixels"/>
+ 			<Spinner
+ 				android:id="@+id/spinner_dmx_pixels"
+ 				android:layout_width="match_parent"
+ 				android:layout_weight="3" 
+ 				android:layout_height="wrap_content"
+ 				android:entries="@array/dmx_pixels"/>
+ 		</LinearLayout>
+ 		
+ 		<!-- DMX tab -->
+ 		<LinearLayout
+ 			android:layout_width="fill_parent"
+ 			android:layout_height="match_parent"
+ 			android:orientation="horizontal"
+ 			android:layout_marginTop="1dip"
+ 			android:layout_weight="1">
+ 			<TextView
+ 				android:layout_width="match_parent"
+ 				android:layout_height="match_parent"
+ 				android:layout_weight="2"
+ 				android:text="@string/dmx_tab"/>
+ 			<Spinner
+ 				android:id="@+id/spinner_dmx_tab"
+ 				android:layout_width="match_parent"
+ 				android:layout_height="match_parent"
+ 				android:layout_weight="3"
+ 				android:entries="@array/dmx_tab"/>
+ 		</LinearLayout>
+ 		
+ 		<!-- DMX strobe -->
+ 		<LinearLayout
+ 			android:layout_width="fill_parent"
+ 			android:layout_height="match_parent"
+ 			android:orientation="horizontal"
+ 			android:layout_marginTop="1dip"
+ 			android:layout_weight="1">
+ 			<TextView
+ 				android:layout_width="match_parent"
+ 				android:layout_height="match_parent"
+ 				android:layout_weight="2"
+ 				android:text="@string/dmx_strobe"/>
+ 			<Spinner
+ 				android:id="@+id/spinner_dmx_strobe"
+ 				android:layout_width="match_parent"
+ 				android:layout_height="match_parent"
+ 				android:layout_weight="3"
+ 				android:entries="@array/dmx_strobe"/>
+ 		</LinearLayout>
+ 		
+ 		<!-- DMX fail -->
+ 		<LinearLayout
+ 			android:layout_width="fill_parent"
+ 			android:layout_height="match_parent"
+ 			android:orientation="horizontal"
+ 			android:layout_marginTop="1dip"
+ 			android:layout_weight="1">
+ 			<TextView
+ 				android:layout_width="match_parent"
+ 				android:layout_height="match_parent"
+ 				android:layout_weight="2"
+ 				android:text="@string/dmx_fail"/>
+ 			<Spinner
+ 				android:id="@+id/spinner_dmx_fail"
+ 				android:layout_width="match_parent"
+ 				android:layout_height="match_parent"
+ 				android:layout_weight="3"
+ 				android:entries="@array/dmx_fail"/>
+ 		</LinearLayout>
+ 		
+ 		<!-- DMX input -->
+ 		<LinearLayout
+ 			android:layout_width="fill_parent"
+ 			android:layout_height="match_parent"
+ 			android:orientation="horizontal"
+ 			android:layout_marginTop="1dip"
+ 			android:layout_weight="1">
+ 			<TextView
+ 				android:layout_width="match_parent"
+ 				android:layout_height="match_parent"
+ 				android:layout_weight="2"
+ 				android:text="@string/dmx_input"/>
+ 			<Spinner
+ 				android:id="@+id/spinner_dmx_input"
+ 				android:layout_width="match_parent"
+ 				android:layout_height="match_parent"
+ 				android:layout_weight="3"
+ 				android:entries="@array/dmx_input"/>
+ 		</LinearLayout>
+ 	</LinearLayout>
+ 	
+ 	<LinearLayout 
+ 		android:id="@+id/linearLayout1" 
+ 		android:layout_height="match_parent" 
+ 		android:layout_width="fill_parent" 
+ 		android:layout_weight="2"
+ 		android:orientation="vertical" >
+ 		<!-- Remote setup of lamps -->
+ 		<LinearLayout
+ 			android:layout_width="match_parent"
+ 			android:layout_height="match_parent"
+ 			android:layout_marginTop="1dip"
+ 			android:layout_weight="1">
+ 			<Spinner
+ 				android:layout_width="match_parent"
+ 				android:layout_height="wrap_content"
+ 				/>
+ 		</LinearLayout>
+ 		<LinearLayout
+ 			android:layout_width="match_parent"
+ 			android:layout_height="match_parent"
+ 			android:layout_marginTop="1dip"
+ 			android:layout_weight="1">
+ 			<Spinner
+ 				android:layout_width="match_parent"
+ 				android:layout_height="wrap_content"
+ 				/>
+ 		</LinearLayout>
+ 		<LinearLayout
+ 			android:layout_width="match_parent"
+ 			android:layout_height="match_parent"
+ 			android:layout_marginTop="5dip"
+ 			android:layout_weight="1"
+ 			android:orientation="horizontal"> 			
+ 				<TextView
+ 					android:layout_width="match_parent"
+ 					android:layout_height="match_parent"
+ 					android:layout_weight="1"
+ 					android:text="@string/blower_speed" android:paddingTop="10dip"/>
+ 				<SeekBar
+ 					android:layout_width="match_parent"
+ 					android:layout_height="wrap_content"
+ 					android:layout_gravity="center_vertical"
+ 					android:layout_weight="1"
+ 					android:progress="5"/>	
+ 		</LinearLayout>
+ 		
+ 	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="@dimen/screen_padding_top"
+    android:paddingLeft="@dimen/screen_padding_left"
+    >
+    
+    <RelativeLayout 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	>
+		<TextView  
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content" 
+			    android:text="@string/colors"
+			    android:gravity="center_vertical"
+			    android:layout_alignParentLeft="true"
+			    />
+	    
+	    <LinearLayout android:orientation="horizontal"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:gravity="center_vertical"
+	    	android:layout_alignParentRight="true">
+	    	
+		    	<TextView  
+				    android:layout_width="@dimen/color_size" 
+				    android:layout_height="@dimen/color_size"
+				    android:background="#F00"
+				    />
+				    
+				<View
+		    		android:layout_width="@dimen/color_sep"
+		    		android:layout_height="@dimen/color_size"
+		    		/>
+    		
+				<TextView  
+				    android:layout_width="@dimen/color_size" 
+				    android:layout_height="@dimen/color_size"
+				    android:background="#0F0"
+				    />
+				
+				<View
+		    		android:layout_width="@dimen/color_sep"
+		    		android:layout_height="@dimen/color_size"
+		    		/>
+		    		 
+				<TextView  
+				    android:layout_width="@dimen/color_size" 
+				    android:layout_height="@dimen/color_size"
+				    android:background="#00F"
+				    />
+				
+				<View
+		    		android:layout_width="@dimen/color_sep"
+		    		android:layout_height="@dimen/color_size"
+		    		/>
+		    		
+				<TextView  
+				    android:layout_width="@dimen/color_size" 
+				    android:layout_height="@dimen/color_size"
+				    android:background="#FFF"
+				    />
+	    </LinearLayout>
+    
+    </RelativeLayout>
+    
+    
+    <RelativeLayout 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	>
+    	<TextView  
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:text="@string/effect"
+		    />
+		  
+		<TextView  
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:text="@string/one_color_static"
+		    />
+    </RelativeLayout>
+    
+    
+    
+    <RelativeLayout 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	>
+    	<TextView  
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:text="@string/effect_dir"
+		    />
+		  
+		<TextView  
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:text="@string/forward"
+		    />
+    </RelativeLayout>
+    
+    
+    <TableLayout 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:stretchColumns="1"
+    	>
+    	
+    	<TableRow
+    		android:paddingBottom="@dimen/table_sep">
+    		
+    		<TextView  
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content"
+			    android:text="@string/fade"
+			    />
+
+			<SeekBar
+				android:id="@+id/seek_bar_fade" 
+				android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content"
+			    android:progress="5"
+			    android:max="100" />  
+		    
+		    <TextView  
+		    	android:id="@+id/text_view_fade"
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content"
+			    android:text="0%"
+			    />
+    	</TableRow>
+    	
+    	<TableRow
+    		android:paddingBottom="@dimen/table_sep">
+    		
+    		<TextView  
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content"
+			    android:text="@string/speed"
+			    />
+			    
+			<SeekBar
+				android:id="@+id/seek_bar_speed" 
+				android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content"
+			    android:progress="5"
+			    android:max="100" />  
+			    
+			<TextView  
+				android:id="@+id/text_view_speed"
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content"
+			    android:text="0m0s"
+			    />
+    	</TableRow>
+    	
+    	<TableRow
+    		android:paddingBottom="@dimen/table_sep">
+    		
+    		<TextView  
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content"
+			    android:text="@string/brightness"
+			    />
+			    
+			<SeekBar
+				android:id="@+id/seek_bar_brightness" 
+				android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content"
+			    android:progress="5"
+			    android:max="100" />  
+			   			    
+			<TextView  
+				android:id="@+id/text_view_brightness"
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content"
+			    android:text="0%"
+			    />
+    	</TableRow>
+    	
+    	<TableRow>
+    		<TextView  
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content"
+			    android:text="@string/strobe"
+			    />
+			    
+			<SeekBar
+				android:id="@+id/seek_bar_strobe" 
+				android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content"
+			    android:progress="5"
+			    android:max="100" />  
+			   			
+			<TextView  
+				android:id="@+id/text_view_strobe"
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content"
+			    android:text="@string/off"
+			    />
+    	</TableRow>
+    </TableLayout>
+    
+    
+    <RelativeLayout 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	>
+    	<TextView  
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_centerVertical="true"
+		    android:text="@string/random_mode"
+		    />
+		  
+		<Spinner  
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:entries="@+array/on_off_modes"
+		    />
+    </RelativeLayout>
+    
+    
+    <RelativeLayout 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	>
+    	<TextView  
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_centerVertical="true"
+		    android:text="@string/effect_param"
+		    />
+		  
+		<Spinner  
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:entries="@+array/on_off_modes"
+		    />
+    </RelativeLayout>
+    
+    <LinearLayout
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    	
+    	<Button
+    		android:layout_width="0dp"
+    		android:layout_height="wrap_content"
+    		android:layout_weight="1.0"
+    		android:text="@string/save"
+    	/>
+    	
+    	<View
+    		android:layout_width="20dp"
+    		android:layout_height="wrap_content"
+    		/>
+    		
+    	<Button
+    		android:layout_width="0dp"
+    		android:layout_height="wrap_content"
+    		android:layout_weight="1.0"
+    		android:text="@string/save_as"
+    	/>
+    	
+    </LinearLayout>
+</LinearLayout>

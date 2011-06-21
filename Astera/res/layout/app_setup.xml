@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+	
+ 	<!-- Factory reset of remote -->
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="1dip"
+ 		android:layout_marginLeft="20dip"
+ 		android:layout_marginRight="10dip"	
+ 		android:text="@string/txt_button_factory_reset_of_remote"
+ 		/>
+ 
+ 	<!-- Factory reset of lamps -->
+ 	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="1dip"
+ 		android:layout_marginLeft="20dip"
+ 		android:layout_marginRight="10dip"	
+ 		android:text="@string/txt_button_factory_reset_of_lamps"/>
+ 	
+ 	<!-- Firmware update -->
+ 	<Button
+ 		android:id="@+id/button_firmware_update"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dip"
+ 		android:layout_marginLeft="20dip"
+ 		android:layout_marginRight="10dip"
+ 		android:text="@string/txt_button_firmware_update"/>
+ 	
+ 	<!-- The inside view -->
+ 	<FrameLayout
+ 		android:id="@+id/content_inside"
+ 		android:layout_width="match_parent"
+ 		android:layout_height="0dip"
+ 		android:layout_marginTop="5dip"
+ 		android:layout_marginLeft="20dip"
+ 		android:layout_marginRight="10dip"
+ 		android:background="@drawable/button_bg"
+ 		>
+ 		<TextView 
+ 			android:id="@+id/textView1" 
+ 			android:layout_width="wrap_content" 
+ 			android:layout_height="wrap_content" 
+ 			android:layout_gravity="center_horizontal" 
+ 			android:text="V.1.0.1"/>
+ 		<SeekBar 
+ 			android:id="@+id/seekBar1" 
+ 			android:layout_height="wrap_content" 
+ 			android:layout_width="match_parent" 
+ 			android:layout_gravity="bottom|center_horizontal" 
+ 			android:layout_marginLeft="10dip" 
+ 			android:layout_marginRight="10dip"/>
+ 		<Button 
+ 			android:id="@+id/button1" 
+ 			android:layout_width="wrap_content" 
+ 			android:layout_height="wrap_content" 
+ 			android:text="Update" 
+ 			android:layout_gravity="center"/>
+ 	</FrameLayout>
+ 	
+ 	<!-- Backup keys -->
+ 	<RelativeLayout
+ 		android:layout_width="match_parent"
+ 		android:layout_height="wrap_content"
+ 		android:layout_marginTop="5dip"
+ 		android:layout_marginLeft="20dip"
+ 		android:layout_marginRight="10dip"
+ 		>
+ 		<TextView
+ 			android:layout_width="wrap_content"
+ 			android:layout_height="wrap_content"
+ 			android:text="@string/backup_keys"
+ 			android:layout_alignParentLeft="true"
+ 			android:layout_centerVertical="true"/>
+ 		<Button
+ 			android:layout_width="50dip"
+ 			android:layout_height="wrap_content"
+ 			android:textColor="@drawable/button_text"
+ 			android:text="Save"
+ 			android:layout_alignParentRight="true"
+ 			android:background="@drawable/button_bg"/>
+ 	</RelativeLayout>
+ 	
+ 	<!-- Distance test -->
+ 	<RelativeLayout
+ 		android:layout_width="match_parent"
+ 		android:layout_height="wrap_content"
+ 		android:layout_marginTop="5dip"
+ 		android:layout_marginLeft="20dip"
+ 		android:layout_marginRight="10dip">
+ 	 	<TextView
+ 			android:layout_width="wrap_content"
+ 			android:layout_height="wrap_content"
+ 			android:layout_alignParentLeft="true"
+ 			android:layout_centerVertical="true"
+ 			android:text="@string/distance_test"/>
+ 		<Button
+ 			android:layout_width="50dip"
+ 			android:layout_height="wrap_content"
+ 			android:text="Off"
+ 			android:textColor="@drawable/button_text"
+ 			android:layout_alignParentRight="true"
+ 			android:background="@drawable/button_bg"/>
+ 	</RelativeLayout>
+ 	
+ 	<!-- Set radio pin -->
+ 	<RelativeLayout
+ 		android:layout_width="match_parent"
+ 		android:layout_height="wrap_content"
+ 		android:layout_marginTop="5dip"
+ 		android:layout_marginLeft="20dip"
+ 		android:layout_marginRight="10dip">
+ 		<TextView
+ 			android:layout_width="wrap_content"
+ 			android:layout_height="wrap_content"
+ 			android:layout_alignParentLeft="true"
+ 			android:layout_centerVertical="true"
+ 			android:text="@string/set_radio_pin"/>
+ 		<Spinner
+ 			android:layout_width="wrap_content"
+ 			android:layout_height="wrap_content"
+ 			android:layout_alignParentRight="true"
+ 			android:entries="@array/radio_pins"/>
+ 	</RelativeLayout>
+ 	
+ 	<!-- Pair radio pin with lamps -->
+ 	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dip"
+ 		android:layout_marginLeft="20dip"
+ 		android:layout_marginRight="10dip"
+ 		android:text="@string/txt_button_pair_radio_pin_with_lamps"/>
+ 	
+ 	<!-- Info -->
+ 	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dip"
+ 		android:layout_marginLeft="20dip"
+ 		android:layout_marginRight="10dip"
+ 		android:text="@string/txt_button_info"/>
+ 	 
+ 	 <!-- Create new set -->
+ 	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dip"
+ 		android:layout_marginLeft="20dip"
+ 		android:layout_marginRight="10dip"
+ 		android:text="@string/txt_button_create_new_set"/>
+		
+</LinearLayout>

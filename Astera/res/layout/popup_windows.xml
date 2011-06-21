@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical">
+  	<Button
+	  	android:id="@+id/popup_color_picker"
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:text="Show the color picker"
+	  	android:layout_marginTop="@dimen/button_margin_top"/>
+  	<Button
+	  	android:id="@+id/popup_target_lamps"
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:text="Show the target lamps"
+	  	android:layout_marginTop="@dimen/button_margin_top"/>
+	<Button
+	  	android:id="@+id/popup_tap_sync"
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:text="Show the tap sync"
+	  	android:layout_marginTop="@dimen/button_margin_top"/>
+  	<Button
+	  	android:id="@+id/popup_create_set"
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:text="Create a new set"
+	  	android:layout_marginTop="@dimen/button_margin_top"/>
+	<Button 
+		android:id="@+id/popup_Manual_white_calibration"
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:text="Manual white calibration"
+	  	android:layout_marginTop="@dimen/button_margin_top"/>
+  	
+</LinearLayout>

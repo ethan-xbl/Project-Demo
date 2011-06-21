@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ControlPanel!</string>
+    <string name="app_name">Astera</string>
+    
+    <string name="title_create_program">Create program</string>
+    <string name="title_launch_program">Launch program</string>
+    <string name="title_lamp_setup">Lamp setup</string>
+    <string name="title_app_setup">App setup</string>
+    <string name="title_popup_windows">Popup windows</string>
+    <string name="colors">Colors</string>
+    <string name="effect">Effect</string>
+    <string name="effect_dir">Effect difection</string>
+    <string name="fade">Fade</string>
+    <string name="speed">Speed</string>
+    <string name="brightness">Brightness</string>
+    <string name="strobe">Strobe</string>
+    <string name="random_mode">Random mode</string>
+    <string name="effect_param">Effect parameters</string>
+    <string name="save">Save</string>
+    <string name="save_as">Save as</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="forward">Forward</string>
+    <string name="one_color_static">One color static</string>
+    
+       <!-- 面板Create program 的字符串 -->
+    <string name="create_program_name">Create program</string>
+    <string name="txt_color">Colors</string>
+    <string name="txt_effect">Effect</string>
+    <string name="txt_effect_direction">Effect direction</string>
+    <string name="txt_fade">Fade</string>
+    <string name="txt_speed">Speed</string>
+    <string name="txt_brightness">Brightness</string>
+    <string name="txt_strobe">Strobe</string>
+    <string name="txt_random_mode">Random mode</string>
+    <string name="txt_effect_parameter">Effect Parameter</string>
+    <string name="txt_btn_save">Save</string>
+    <string name="txt_btn_save_as">Save as</string>
+   
+    <!-- 面板lamp_setup的字符串 -->
+    <string name="lamp_setup_name">Lamp setup</string>
+    <string name="dmx_address">DMX address</string>
+    <string name="dmx_pixels">DMX pixels</string>
+    <string name="dmx_tab">DMX tab</string>
+    <string name="dmx_strobe">DMX strobe</string>
+    <string name="dmx_fail">DMX fail</string>
+    <string name="dmx_input">DMX Input</string>
+    <string name="blower_speed">Blower speed</string>
+    
+    <!-- 面板app_setup的字符串 -->
+    <string name="backup_keys">Backup keys</string>
+    <string name="distance_test">Distance test</string>
+    <string name="set_radio_pin">Set radio pin</string>
+    <string name="target_lamp">Target lamps by</string>
+    <string name="tap_sync">tap this window to the music to beatmatch the lamps</string>
+    <string name="txt_button_factory_reset_of_remote">Factory reset of remote</string>
+    <string name="txt_button_factory_reset_of_lamps">Factory reset of lamps</string>
+    <string name="txt_button_firmware_update">Firmware update +</string>
+    <string name="txt_button_pair_radio_pin_with_lamps">Pair radio pin with lamps</string>
+    <string name="txt_button_info">Info</string>
+    <string name="txt_button_create_new_set">Create new set</string>
+</resources>

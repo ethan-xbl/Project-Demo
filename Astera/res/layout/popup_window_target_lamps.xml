@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="200dip"
+  android:layout_height="160dip"
+  android:orientation="vertical"
+  android:background="#FFFFFF">
+    <TextView android:id="@+id/title_color_picker" 
+    		  android:layout_width="match_parent" 
+    		  android:layout_height="wrap_content"
+    		  android:background="#666666" 
+    		  android:text="@string/target_lamp"/>
+   	<!-- set # -->
+   	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_marginTop="5dip"
+		android:layout_marginLeft="10dip"
+		>
+   		<TextView
+   			android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:layout_marginTop="15dip"
+   			android:text="Set #"
+   			android:textColor="#000000" />
+   		<Spinner
+   			android:layout_width="match_parent"
+   			android:layout_height="wrap_content"
+   			android:layout_marginTop="10dip"
+   			android:layout_marginBottom="5dip"
+   			android:layout_marginRight="5dip"
+   			android:layout_marginLeft="5dip"
+   			/>
+   	</LinearLayout>
+   	<!-- group -->
+   	<LinearLayout
+   		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:orientation="horizontal"
+   		android:layout_marginTop="5dip"
+   		android:layout_marginLeft="10dip">
+   		<TextView
+   			android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:text="Group"
+   			android:textColor="#000000" 
+   			/>
+   		<Button
+   			android:id="@+id/button_g1"
+   			android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:background="#FFFFFF"
+   			android:layout_marginLeft="10dip"
+   			android:text="G1"
+   			android:textColor="#000000" />
+   		<Button
+   			android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:background="#FFFFFF"
+   			android:layout_marginLeft="5dip"
+   			android:text="G2"
+   			android:textColor="#000000" />
+   		<Button
+   			android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:background="#FFFFFF"
+   			android:layout_marginLeft="5dip"
+   			android:text="G3"
+   			android:textColor="#000000" />
+   		<Button
+   			android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:background="#FFFFFF"
+   			android:layout_marginLeft="5dip"
+   			android:text="G4"
+   			android:textColor="#000000" />
+   	</LinearLayout>
+   	<TextView
+   		android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+   		android:layout_marginLeft="20dip"
+   		android:layout_marginTop="5dip"
+   		android:text="Tapping them"
+   		android:textColor="#000000" />
+   	
+   	
+</LinearLayout>

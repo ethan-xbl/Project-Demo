@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="on_off_modes">
+		<item>@string/off</item>
+		<item>@string/on</item>
+	</string-array>
+	<string-array name="radio_pins">
+		<item>0001</item>
+		<item>0002</item>
+		<item>0003</item>
+		<item>0004</item>
+	</string-array>
+	<string-array name="dmx_address">
+		<item>001</item>
+		<item>002</item>
+		<item>003</item>
+		<item>004</item>
+	</string-array>
+	<string-array name="dmx_pixels">
+		<item>One pixel</item>
+		<item>Two pixel</item>
+		<item>Three pixel</item>
+		<item>Four pixel</item>
+	</string-array>
+	<string-array name="dmx_tab">
+		<item>Effect mode RGB</item>
+		<item>Effect mode RGB</item>
+		<item>Effect mode RGB</item>
+		<item>Effect mode RGB</item>
+	</string-array>
+	<string-array name="dmx_strobe">
+		<item>Single</item>
+		<item>TEST</item>
+	</string-array>
+		<string-array name="dmx_fail">
+		<item>Hold</item>
+		<item>Test</item>
+	</string-array>
+	<string-array name="dmx_input">
+		<item>Auto</item>
+		<item>Test</item>
+	</string-array>
+</resources>

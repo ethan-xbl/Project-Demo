@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.led.ctrl"
+      android:versionCode="1"
+      android:versionName="1.0">
+
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".ControlPanel"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name="CreateProgram"
+				  android:label="@string/title_create_program"/>
+		<activity android:name="LaunchProgram"
+				  android:label="@string/title_launch_program"/>
+		<activity android:name="AppSetup"
+				  android:label="@string/title_lamp_setup"/>
+		<activity android:name="LampSetup"
+				  android:label="@string/title_app_setup"/>
+		<activity android:name="PopupWindows"
+				  android:label="@string/title_popup_windows"/>
+    </application>
+</manifest>

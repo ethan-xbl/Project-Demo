@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!-- layout in mobile -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/background">
+    <RelativeLayout android:layout_height="fill_parent"  
+        android:layout_width="fill_parent"> 
+    <LinearLayout android:id="@+id/btnBar" 
+    		  android:layout_height="320dip" 
+    		  android:layout_width="38dip"
+    		  >
+    </LinearLayout>
+   
+    <ViewFlipper android:layout_width="fill_parent"
+    			android:layout_height="fill_parent"
+    			android:layout_toRightOf="@+id/btnBar"
+    			android:id="@+id/vfContainer">
+
+    </ViewFlipper>
+    </RelativeLayout>
+</LinearLayout>

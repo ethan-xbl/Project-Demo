@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_margin_top">10dip</dimen>
+    <dimen name="screen_padding_top">5dp</dimen>
+    <dimen name="screen_padding_left">15dp</dimen>
+    <dimen name="color_size">30dp</dimen>
+   	<dimen name="color_sep">5dp</dimen> 
+   	<dimen name="table_sep">10dp</dimen>
+</resources>
